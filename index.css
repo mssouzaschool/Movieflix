@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+}
+
+.Contaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+}
+
+.Cabecalho > h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.Cabecalho > h3:hover {
+    cursor: pointer;
+}
+
+.Cabecalho > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.Cabecalho > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cima {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #DAA520;
+    width: 100%;
+}
+
+.Cima > h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+.Cima > iframe {
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+.Baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+    width: 99.6vw;
+    padding: 30px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.Baixo > h2 {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Filmes {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.Filme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 23px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.Filme > iframe {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Filme > p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Filme:hover {
+    opacity: 1.0;
+}
+
+hr {
+    height: 2px;
+}
+
+.Rodape {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.Rodape > h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.Rodape > h2:hover {
+    cursor: pointer;
+}
+
+.Rodape > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.Rodape > p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
